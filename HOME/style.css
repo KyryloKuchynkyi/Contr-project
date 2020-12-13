@@ -392,3 +392,32 @@ header {
     color: rgba(0, 0, 0, 0.178);
     font-weight: bold;
 }
+
+/* FOOTER */
+
+.footer {
+    height: 155px;
+}
+
+.settingsMenuFooter {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.footerInfo {
+    margin-top: 50px;
+}
+
+.footerInfo h3 {
+    color: rgba(0, 0, 0, 0.479);
+    margin-left: 50px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 75px;
+    margin-top: 20px;
+}

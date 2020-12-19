@@ -428,6 +428,11 @@ header {
     .container {
         height: 100%;
     }
+
+    .submenu li {
+        margin-bottom: 10px;
+    }
+
     .column {
         display: flex;
         flex-direction: column;

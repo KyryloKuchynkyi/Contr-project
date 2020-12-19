@@ -1,0 +1,89 @@
+/* HEADER */
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.line {
+    display: flex;
+    flex-direction: row;
+}
+
+.raw {
+    display: flex;
+    flex-direction: row;
+}
+
+header {
+    display: flex;
+    height: 500px;
+    background-image: url(aboutImages/BG.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+}
+
+.logo a {
+    color: rgba(0, 0, 0, 0.616);
+    font-weight: bold;
+}
+
+.submenu {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.submenu li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.616);
+    border: 2px solid transparent;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.submenu li a:hover {
+    border: 2px solid rgba(0, 0, 0, 0.616);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.midle {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    padding-top: 180px;
+}
+
+.aboutInfo h3 {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.616);
+}
+
+.aboutInfo div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.aboutInfo div a {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-left: 3px;
+    padding-right: 3px;
+    color: rgba(0, 0, 0, 0.616);
+    font-size: 20px;
+    font-weight: bold;
+    word-spacing: 10px;
+    text-decoration: none;
+}

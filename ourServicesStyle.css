@@ -87,3 +87,327 @@ header {
     word-spacing: 10px;
     text-decoration: none;
 }
+
+
+/* SECTION 1 */
+
+.section1 {
+    height: 1050px;
+}
+
+.some h3 {
+    font-size: 32px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    color: rgba(0, 0, 0, 0.616);
+    line-height: 1.4;
+    position: relative;
+}
+
+.gen {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+.gen a {
+    width: 80%;
+    text-align: center;
+    line-height: 1.4;
+    color: rgba(0, 0, 0, 0.479);
+}
+
+.green3 {
+    margin-left: -152px;
+    margin-top: 20px;
+    width: 60px;
+    height: 20px;
+    background-color: #66ffcc;
+    position: absolute;
+}
+
+label::before {
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #66ffcc;
+    background-color: #66ffcc;
+    cursor: pointer;
+    margin-right: 5px; 
+}
+  
+input[type="checkbox"] {
+    display: none;
+}
+
+.contentUl {
+    margin-top: 50px;
+}
+
+.noP {
+    padding: 0;
+}
+
+.contentUl li {
+    margin-bottom: 10px;
+}
+
+.contentUl li a {
+    color: rgba(0, 0, 0, 0.479);
+}
+
+
+.text {
+    margin-top: 90px;
+    line-height: 2;
+    color: rgba(0, 0, 0, 0.479);
+}
+
+.whatWeDoImg {
+    padding-top: 100px;
+}
+
+.green {
+    width: 60px;
+    height: 20px;
+    background-color: #66ffcc;
+    position: absolute;
+    margin-top: 20px;
+}
+
+
+
+.genN {
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+
+.genN2 {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+
+.smallImg {
+    margin-top: 150px;
+}
+
+
+.box h3 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color:  rgba(0, 0, 0, 0.616)
+}
+
+.box a {
+    line-height: 1.4;
+    color: rgba(0, 0, 0, 0.479);
+}
+
+.box2 h3 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color:  rgba(0, 0, 0, 0.616)
+}
+
+.box2 a {
+    line-height: 1.4;
+    color: rgba(0, 0, 0, 0.479);
+}
+
+
+/* SECTION 2 */
+
+.section2 {
+    height: 800px;
+}
+
+.green4 {
+    width: 60px;
+    height: 20px;
+    background-color: #66ffcc;
+    position: absolute;
+    margin-top: 20px;
+    margin-right: 190px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.space {
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.gbox {
+    width: 165px;
+    height: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #66ffcc;
+    background-color: #66ffcc;
+    margin-top: 10px;
+}
+
+.gbox a {
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.genbox {
+    border-top: 5px solid #66ffcc;
+}
+
+.genbox h3 {
+    margin-top: 5px;
+    color: rgba(0, 0, 0, 0.616);
+    font-weight: bold;
+}
+
+.boxbut {
+    margin-top: 10px;
+    width: 135px;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+    background-color: #66ffcc;
+    border: none;
+    margin-bottom: 10px;
+}
+
+
+.genbox:hover {
+    box-shadow: 0px 0px 20px 15px rgba(192, 192, 192, 0.568);
+}
+
+
+/* SECTION 3  */
+
+.section3 {
+    height: 330px;
+}
+
+.watter {
+    background-color: #66ffcc;
+}
+
+.cool {
+    padding-top: 50px;
+    padding-left: 63px;
+}
+
+.cool h3 {
+    font-size: 28px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    color: white;
+    line-height: 1.4;
+}
+
+.cool button {
+    width: 165px;
+    height: 50px;
+    background-color: white;
+    border: none;
+    color: #66ffcc;
+    font-weight: bold;
+}
+
+.mailDiv {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 555px;
+    height: 233px;
+    background-color: white;
+}
+
+.mailDiv h3 {
+    font-size: 26px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: rgba(0, 0, 0, 0.616);
+    line-height: 1.4;
+}
+
+.mailDiv a {
+    line-height: 1.4;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.479);
+    padding-bottom: 20px;
+}
+
+.mail {
+    width: 510px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.mail input {
+    width: 375px;
+    height: 50px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.178); 
+    border-right-color: transparent;
+}
+
+.mail button {
+    width: 135px;
+    height: 50px;
+    background-color: #66ffcc;
+    color: white;
+    font-weight: bold;
+    border: none;
+    margin-left: -2px;
+}
+
+.mail ::placeholder{
+    color: rgba(0, 0, 0, 0.178);
+    font-weight: bold;
+}
+
+
+/* FOOTER */
+
+footer {
+    height: 160px;
+}
+
+.settingsMenuFooter {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.footerInfo {
+    margin-top: 50px;
+}
+
+.footerInfo h3 {
+    color: rgba(0, 0, 0, 0.479);
+    margin-left: 50px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 75px;
+    margin-top: 20px;
+}

@@ -421,3 +421,95 @@ footer {
     padding-right: 75px;
     margin-top: 20px;
 }
+
+@media(max-width: 426px) {
+    .container {
+        height: 100%;
+    }
+
+    .submenu li {
+        margin-bottom: 10px;
+    }
+
+    .column {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .col-xs-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .cl {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section2 {
+        margin-top: 735px;
+    }
+    
+    .section3 {
+        margin-top: 1505px;
+    }
+
+    .sign-photos {
+        margin-top: 80px;
+    }
+
+    .section5 {
+        margin-top: 630px;
+    }
+
+    .mail {
+        width: auto;
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .mailDiv {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        margin-top: 50px;
+        margin-left: 0px;
+        width: 289px;
+        height: 280px;
+        background-color: white;
+    }
+
+    .mail input {
+        width: 125px;
+        height: 50px;
+        margin-bottom: 20px;
+        padding-left: 16px;
+        border: 2px solid rgba(0, 0, 0, 0.178);
+        border-right-color: transparent;
+    }
+
+    .but {
+        display: flex;
+        justify-content: center;
+        padding-top: 33px;
+    }
+
+    .logo {
+        margin-bottom: 10px;
+    }
+
+    footer {
+        margin-top: 265px;
+    }
+
+    header {
+        display: flex;
+        height: 500px;
+        background-image: url(aboutImages/BG.png);
+        background-repeat: no-repeat;
+        background-size: 100% 210px;
+        align-items: center;
+        flex-direction: column;
+    }
+}   

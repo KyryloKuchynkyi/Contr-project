@@ -149,7 +149,6 @@ header {
     border: none;
 }
 
-
 /* MAIN */
 .section1 {
     height: 1010px;
@@ -422,6 +421,10 @@ footer {
     margin-top: 20px;
 }
 
+.close {
+    visibility: hidden;
+}
+
 
 
 @media(max-width: 426px) {
@@ -556,8 +559,96 @@ footer {
         margin-bottom: 10px;
     }
 
-    
-    
+    .space {
+        justify-content: space-between;
+    }
+
+    /* MOBILE MENU */
+
+    .nav-gamburger-menu {
+        width: 15px;
+        height: 15px;
+        position: relative;
+    }
+
+    .nav-gamburger-menu span{
+        height: 1px;
+        background-color: black;
+        position: absolute;
+        left: 0;
+        right: 0;
+        transition: .25s ease-in-out;
+    }
+
+    .nav-gamburger-menu span:nth-child(1) {
+        top:3px;
+    }
+    .nav-gamburger-menu span:nth-child(2) {
+        top:7px;
+    }
+    .nav-gamburger-menu span:nth-child(3) {
+        bottom:3px;
+    }
+
+    .hidden-menu {
+        opacity: 0;
+        visibility: hidden;
+    }
+    .navigation {
+        max-width: 280px;
+        top:0;
+        right: 0;
+        bottom: 0;
+        position: fixed;
+        transform: translateX(150%);
+        transition: all 500ms ease-in-out;
+    }
+
+    .nav-gamburger-menu.active-menu span:nth-child(1) {
+        top:50%;
+        height: 2px;
+        transform: rotate(45deg);
+    }
+    .nav-gamburger-menu.active-menu span:nth-child(2) {
+        top:50%;
+        height: 2px;
+        transform: rotate(-45deg);
+    }
+    .nav-gamburger-menu.active-menu span:nth-child(3) {
+        transform: scale(0);
+    }
+
+    .navigation.active-menu {
+        opacity: 1;
+        visibility: visible;
+        transform: translateX(0);
+        top:45px;
+        padding: 20px;
+        padding-top: 15px;
+        background-color: #867f7f;
+        z-index: 100;
+        height: 166px;
+    }
+
+    .close {
+        display: flex;
+        visibility: visible;
+        align-self: flex-end;
+        color: white;
+        margin-bottom: 5px;
+        background-color: transparent;
+        border: none;
+    }
+
+    .hide {
+        display: none;
+    }
+      
+      .show {
+        display: block;
+    }
+      
+
 }
 
 

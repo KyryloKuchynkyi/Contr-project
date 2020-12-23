@@ -417,6 +417,10 @@ footer {
     margin-top: 20px;
 }
 
+.close {
+    visibility: hidden;
+}
+
 
 @media(max-width: 426px) {
     .container {

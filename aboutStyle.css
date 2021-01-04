@@ -281,7 +281,7 @@ header {
 
 
 .sign-photos {
-    margin-top: 150px;
+    margin-top: 210px;
 }
 
 .bord {
@@ -424,6 +424,21 @@ footer {
 
 .close {
     visibility: hidden;
+}
+
+.slider-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slick-prev:before, .slick-next:before {
+    color: #66ffcc;
+    font-size: 40px;
+}
+
+.slick-list {
+    left: 60px;
 }
 
 @media(max-width: 426px) {

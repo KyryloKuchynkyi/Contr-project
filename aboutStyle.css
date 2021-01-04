@@ -616,4 +616,12 @@ footer {
       .show {
         display: block;
     }
+
+    .slider-block {
+        width: 80%;
+    }
+
+    .slick-list {
+        left: 0px;
+    }
 }   

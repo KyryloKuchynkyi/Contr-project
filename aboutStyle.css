@@ -466,19 +466,30 @@ footer {
     }
 
     .section2 {
-        margin-top: 735px;
+        margin-top: 430px;
+    }
+
+    .benefitsLogoInfo {
+        margin-top: 30px;
+    }
+
+    .boxes:last-child {
+        margin-top: 0px;
     }
     
     .section3 {
-        margin-top: 1505px;
+        margin-top: 1330px;
     }
 
     .sign-photos {
         margin-top: 80px;
     }
 
-    .section5 {
-        margin-top: 630px;
+    .john-photo {
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        padding-left: 45px;
     }
 
     .mail {
@@ -524,12 +535,16 @@ footer {
 
     header {
         display: flex;
-        height: 500px;
+        height: 450px;
         background-image: url(aboutImages/BG.png);
         background-repeat: no-repeat;
         background-size: 100% 210px;
         align-items: center;
         flex-direction: column;
+    }
+
+    .choose {
+        margin-top: 10px;
     }
 
     /* MOBILE MENU */

@@ -446,12 +446,20 @@ footer {
         flex-direction: column;
     }
 
+    .smallImg {
+        margin-top: 15px;
+    }
+
+    .whatWeDoImg {
+        padding-top: 10px;
+    }
+
     .section2 {
-        margin-top: 1345px;
+        margin-top: 1070px;
     }
 
     .section3 {
-        margin-top: 650px;
+        margin-top: 600px;
     }
 
     .whatWeDoImg img {
@@ -502,7 +510,7 @@ footer {
 
     header {
         display: flex;
-        height: 500px;
+        height: 330px;
         background-image: url(aboutImages/BG.png);
         background-repeat: no-repeat;
         background-size: 100% 210px;
